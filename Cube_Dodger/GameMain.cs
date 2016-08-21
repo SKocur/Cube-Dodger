@@ -58,9 +58,9 @@ namespace Cube_Dodger
             /* Positions of enemies */
             posXenemy1 = randomPosEnemy.Next(10, 50);
             posYenemy1 = randomPosEnemy.Next(50, 150);
-            posXenemy2 = randomPosEnemy.Next(150, 200);
+            posXenemy2 = randomPosEnemy.Next(120, 200);
             posYenemy2 = randomPosEnemy.Next(50, 150);
-            posXenemy3 = randomPosEnemy.Next(200, 300);
+            posXenemy3 = randomPosEnemy.Next(300, 330);
             posYenemy3 = randomPosEnemy.Next(50, 150);
             posXenemy4 = randomPosEnemy.Next(200, 280);
             posYenemy4 = randomPosEnemy.Next(50, 150);
@@ -93,7 +93,7 @@ namespace Cube_Dodger
             Random randomPos = new Random();
             if (posYenemy2 < 700)
             {
-                posYenemy2 += 4;
+                posYenemy2 += 3;
             }
             else if (posYenemy2 >= 700)
             {
@@ -109,7 +109,7 @@ namespace Cube_Dodger
             Random randomPos = new Random();
             if (posYenemy3 < 700)
             {
-                posYenemy3 += 4;
+                posYenemy3 += 5;
             }
             else if (posYenemy3 >= 700)
             {

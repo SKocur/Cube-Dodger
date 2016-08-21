@@ -148,7 +148,7 @@
             this.MinimumSize = new System.Drawing.Size(400, 700);
             this.Name = "GameMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Game by SKocur";
+            this.Text = "Cube Dodger";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.GameMain_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GameMain_KeyDown);
             this.ResumeLayout(false);
